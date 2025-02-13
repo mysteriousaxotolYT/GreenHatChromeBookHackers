@@ -12,5 +12,9 @@ ensure node and npm is installed first
 ``` bash
 npm install node-rdpjs express body-parser
 ```
-next take your windows IP and go into ``config.json``
+next clone the repo on your server by executing-
+``` bash
+
+```
+take your windows IP and go into ``config.json``
 and replace the info with yours
