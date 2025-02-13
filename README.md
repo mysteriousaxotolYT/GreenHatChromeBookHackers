@@ -6,15 +6,13 @@ press (win+r)
 type
 `` ipconfig ``
 and find the iPV4 adress and place it in a safe place, you will need it!
-## step 2 set up node.js
+## step 2 set up the server
 we will use a ubuntu server
 ensure node and npm is installed first
-``` bash
-npm install node-rdpjs express body-parser
-```
-next clone the repo on your server by executing-
+clone the repo on your server by executing-
 ``` bash
 git clone https://github.com/pancakes-proxy/GreenHatChromeBookHackers.git
+cd GreenHatChromeBookHackers
 ```
 OR if you have a home server and perfer to download get the newest relace
 take your windows IP 
@@ -35,3 +33,21 @@ now ths is what your ``config.json`` should look like:
 ```
 once you have confirmed everything is the way you want we cn moe on to 
 ## deployment
+after checking if node and NPM is installed by typing
+```bash
+node -v
+npm -v
+```
+do this
+```bash
+npm install node-rdpjs express body-parser
+```
+next do 
+```bash
+node app.js
+```
+and once you are done navagate to
+`` http:// localhost:3000 ``
+for futher config vist the customization part on my site
+`` learnhelp.cc/lightspeed.html ``
+
