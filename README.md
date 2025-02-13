@@ -17,5 +17,21 @@ next clone the repo on your server by executing-
 git clone https://github.com/pancakes-proxy/GreenHatChromeBookHackers.git
 ```
 OR if you have a home server and perfer to download get the newest relace
-take your windows IP and go into ``config.json``
-and replace the info with yours
+take your windows IP 
+go into ``config.json`` and replace the info with yours
+now ths is what your ``config.json`` should look like:
+``` json
+{
+    "login": {
+        "username": "the username of your choice",
+        "password": "password of your choice"
+    },
+    "rdp": {
+        "host": "windows-machine-ip",
+        "username": "your pc username",
+        "password": "your pc password"
+    }
+}
+```
+once you have confirmed everything is the way you want we cn moe on to 
+## deployment
