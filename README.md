@@ -14,7 +14,8 @@ npm install node-rdpjs express body-parser
 ```
 next clone the repo on your server by executing-
 ``` bash
-
+git clone https://github.com/pancakes-proxy/GreenHatChromeBookHackers.git
 ```
+OR if you have a home server and perfer to download get the newest relace
 take your windows IP and go into ``config.json``
 and replace the info with yours
