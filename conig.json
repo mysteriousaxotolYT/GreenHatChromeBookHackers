@@ -1,1 +1,11 @@
-
+{
+    "login": {
+        "username": "(replace with the login you wnat to add you need this to get in)",
+        "password": "(replace with the login you wnat to add you need this to get in)"
+    },
+    "rdp": {
+        "host": "your-remote-windows-machine-ip",
+        "username": "your-rdp-username",
+        "password": "your-rdp-password"
+    }
+}
